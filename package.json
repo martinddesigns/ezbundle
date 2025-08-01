@@ -1,0 +1,55 @@
+{
+  "name": "ezbundle",
+  "version": "1.0.0",
+  "description": "An esbuild wrapper that bundles your web projects in seconds—so you can focus on code, not build setups.",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "build": "tsx ./script.ts"
+  },
+  "bin": {
+    "ezbundle": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "types.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinddesigns/ezbundle.git"
+  },
+  "keywords": [
+    "esbuild",
+    "bundler",
+    "wrapper"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/martinddesigns/ezbundle/issues"
+  },
+  "homepage": "https://github.com/martinddesigns/ezbundle#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "chokidar": "^4.0.3",
+    "colors": "^1.4.0",
+    "commander": "^14.0.0",
+    "esbuild": "^0.25.8",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-copy": "^2.1.1",
+    "esbuild-sass-plugin": "^3.3.1",
+    "glob": "^11.0.3",
+    "postcss": "^8.5.6",
+    "ts-import": "5.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
