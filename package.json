@@ -1,6 +1,6 @@
 {
   "name": "ezbundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An esbuild wrapper that bundles your web projects in seconds—so you can focus on code, not build setups.",
   "main": "index.js",
   "types": "types.d.ts",
