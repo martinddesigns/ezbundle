@@ -41,8 +41,6 @@ export default {
   // The output directory for compiled files.
   // If not specified, files are output in the "build" folder.
   outDir: 'build',
-  // Advanced watch configuration options.
-  tsconfig: './tsconfig.json',
   // Compile app.css file on every file change for Tailwind support.
   // If not specified, defaults to true.
   autoCompileCss: true,
